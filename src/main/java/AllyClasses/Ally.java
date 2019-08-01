@@ -49,4 +49,7 @@ public abstract class Ally implements ITakeDmg {
         return false;
     }
 
+    public String getName() {
+        return name;
+    }
 }
