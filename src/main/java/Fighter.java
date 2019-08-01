@@ -2,6 +2,6 @@ public class Fighter extends Ally{
 
 
     public Fighter(){
-        super(,,100);
+        super(ArmourType.CLOTH,,100);
     }
 }

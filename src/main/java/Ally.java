@@ -1,28 +1,28 @@
 public abstract class Ally {
 
-    private Armour armour;
-    private Weapon weapon;
+    private ArmourType armour;
+    private WeaponType weapon;
     private int HP;
 
-    public Ally(Armour armour, Weapon weapon,int HP) {
+    public Ally(ArmourType armour, WeaponType weapon,int HP) {
         this.armour = armour;
         this.weapon = weapon;
         this.HP=HP;
     }
 
-    public Armour getArmour() {
+    public ArmourType getArmour() {
         return armour;
     }
 
-    public void setArmour(Armour armour) {
+    public void setArmour(ArmourType armour) {
         this.armour = armour;
     }
 
-    public Weapon getWeapon() {
+    public WeaponType getWeapon() {
         return weapon;
     }
 
-    public void setWeapon(Weapon weapon) {
+    public void setWeapon(WeaponType weapon) {
         this.weapon = weapon;
     }
 }
