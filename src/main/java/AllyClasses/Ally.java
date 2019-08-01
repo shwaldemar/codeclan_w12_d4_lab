@@ -1,19 +1,34 @@
 package AllyClasses;
 
+import Abilities.Ability;
 import Game.IDealDmg;
+import Game.IHaveAbilities;
 import Game.ITakeDmg;
 import Items.ArmourType;
 
-public abstract class Ally implements ITakeDmg, IDealDmg {
+import java.util.ArrayList;
+
+public abstract class Ally implements ITakeDmg, IDealDmg, IHaveAbilities {
 
     private ArmourType armour;
     private int HP;
     private String name;
+    protected ArrayList<Ability> abilities;
+    protected Ability currentAbility;
+
+    public Ally(ArmourType armour, int HP, String name, ArrayList<Ability>abilities) {
+        this.armour = armour;
+        this.HP=HP;
+        this.name=name;
+        this.abilities = abilities;
+        this.currentAbility = abilities.get(0);
+    }
 
     public Ally(ArmourType armour, int HP, String name) {
         this.armour = armour;
         this.HP=HP;
         this.name=name;
+        this.currentAbility=null;
     }
 
     public ArmourType getArmour() {
@@ -54,4 +69,7 @@ public abstract class Ally implements ITakeDmg, IDealDmg {
         return name;
     }
 
+    public void chooseAbility(Ability ability){
+        this.currentAbility=ability;
+    }
 }

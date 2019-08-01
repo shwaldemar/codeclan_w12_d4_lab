@@ -1,9 +1,13 @@
 package AllyClasses;
 
+import Abilities.Ability;
+import Abilities.AbilityType;
 import Game.ITakeDmg;
 import Items.ArmourType;
 import Items.Weapon;
 import Items.WeaponType;
+
+import java.util.ArrayList;
 
 public class Fighter extends Ally {
 
@@ -11,6 +15,9 @@ public class Fighter extends Ally {
 
     public Fighter(String name){
         super(ArmourType.CLOTH,100,name);
+        this.abilities = new ArrayList<Ability>();
+        this.abilities.add(new Ability(AbilityType.SWINGWEAPON));
+        this.currentAbility = abilities.get(0);
         weapon = new Weapon(WeaponType.SHORTSWORD);
     }
 
@@ -29,4 +36,5 @@ public class Fighter extends Ally {
     public void attack(ITakeDmg victim){
         victim.loseHP(calculateAttackValue());
     }
+
 }
