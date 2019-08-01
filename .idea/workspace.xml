@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4969909f-71db-4bb2-abfb-a7e27b4d93d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/IDealDmg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AllyClasses/Ally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllyClasses/Ally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AllyClasses/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllyClasses/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AllyClasses/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllyClasses/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EnemyClasses/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EnemyClasses/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AllyClasses/Ally.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AllyClasses/Ally.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AllyClasses/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AllyClasses/Cleric.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AllyClasses/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AllyClasses/Fighter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AllyClasses/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AllyClasses/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EnemyClasses/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EnemyClasses/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClericTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSetup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,28 +23,21 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FighterTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="190">
+              <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1073#1074#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,8 +49,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -113,17 +95,18 @@
         <option value="$PROJECT_DIR$/src/main/java/Game/ITakeDmg.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Wand.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/WandType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Items/Pet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSetup.java" />
         <option value="$PROJECT_DIR$/src/main/java/AllyClasses/Ally.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/IDealDmg.java" />
         <option value="$PROJECT_DIR$/src/main/java/AllyClasses/Fighter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java" />
         <option value="$PROJECT_DIR$/src/main/java/AllyClasses/Cleric.java" />
         <option value="$PROJECT_DIR$/src/main/java/EnemyClasses/Enemy.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClericTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FighterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WizardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Pet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSetup.java" />
       </list>
     </option>
   </component>
@@ -190,6 +173,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="EnemyClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FantasyAdventure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FantasyAdventure" type="b2602c69:ProjectViewProjectNode" />
@@ -266,10 +257,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventure" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="MAIN_CLASS_NAME" value="PetTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,10 +279,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in FantasyAdventure" />
+        <item itemvalue="JUnit.PetTest" />
         <item itemvalue="JUnit.ClericTest.canCalculateAttackValue" />
         <item itemvalue="JUnit.ClericTest" />
         <item itemvalue="JUnit.WizardTest.canGain50HP" />
-        <item itemvalue="JUnit.WizardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -309,9 +300,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnemyTest_skeletonCanHeal75Hp - 2019.08.01 at 12h 08m 57s.xml">
-      <configuration name="EnemyTest.skeletonCanHeal75Hp" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnemyTest_skeletonCanHeal75Hp - 2019.08.01 at 12h 09m 08s.xml">
       <configuration name="EnemyTest.skeletonCanHeal75Hp" configurationId="JUnit" />
     </history-entry>
@@ -338,6 +326,9 @@
     </history-entry>
     <history-entry file="ClericTest_canCalculateAttackValue - 2019.08.01 at 13h 27m 27s.xml">
       <configuration name="ClericTest.canCalculateAttackValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_FantasyAdventure - 2019.08.01 at 13h 28m 44s.xml">
+      <configuration name="All in FantasyAdventure" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -472,33 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EnemyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,36 +502,6 @@
             <element signature="e#432#433#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#520#521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" selection-start-line="23" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AllyClasses/Cleric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,6 +548,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/WandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="31" column="51" lean-forward="true" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FighterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -622,21 +579,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/WandType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AllyClasses/Cleric.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="51">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WizardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AllyClasses/Wizard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        <state relative-caret-position="209">
+          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1073#1074#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,6 +15,7 @@ public class TestSetup {
     protected Staff staff1;
     protected Enemy skeleton1;
     protected Wizard wizard1;
+    protected Pet pet1;
 
     @Before
     public void setUp(){
@@ -22,6 +23,7 @@ public class TestSetup {
         wizard1 = new Wizard("gordon");
         cleric1 = new Cleric("cedric");
         staff1 = new Staff(StaffType.GREATSTAFF);
+        pet1 = new Pet("harold");
         medsword = new Weapon(WeaponType.MEDIUMSWORD);
         goodwand = new Wand(WandType.GOOD);
         skeleton1 = new Enemy(EnemyType.SKELETON);
