@@ -1,12 +1,10 @@
 public abstract class Ally {
 
     private ArmourType armour;
-    private WeaponType weapon;
     private int HP;
 
-    public Ally(ArmourType armour, WeaponType weapon,int HP) {
+    public Ally(ArmourType armour, int HP) {
         this.armour = armour;
-        this.weapon = weapon;
         this.HP=HP;
     }
 
@@ -18,11 +16,4 @@ public abstract class Ally {
         this.armour = armour;
     }
 
-    public WeaponType getWeapon() {
-        return weapon;
-    }
-
-    public void setWeapon(WeaponType weapon) {
-        this.weapon = weapon;
-    }
 }
