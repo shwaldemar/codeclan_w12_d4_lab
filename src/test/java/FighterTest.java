@@ -43,4 +43,9 @@ public class FighterTest extends TestSetup{
         assertEquals(3,fighter1.getWeapon().getType().getValue());
     }
 
+    @Test
+    public void attackingSkeletonMakesItLoseHP(){
+        fighter1.attack(skeleton1);
+        assertEquals(2,skeleton1.getHP());
+    }
 }

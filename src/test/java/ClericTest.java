@@ -46,4 +46,12 @@ public class ClericTest extends TestSetup{
     public void canCalculateAttackValue(){
         assertEquals(3,cleric1.getStaff().getType().getDmgvalue());
     }
+
+    @Test
+    public void attackingSkeletonMakesItLoseHP(){
+        cleric1.attack(skeleton1);
+        assertEquals(2,skeleton1.getHP());
+    }
+
+
 }

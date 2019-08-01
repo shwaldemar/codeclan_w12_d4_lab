@@ -8,5 +8,5 @@ public class RoomTest extends TestSetup{
     public void startsWithEnemies(){
         assertEquals(3,room1.numberOfEnemiesLeft());
     }
-    
+
 }

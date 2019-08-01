@@ -1,3 +1,5 @@
+import Abilities.Ability;
+import Abilities.AbilityType;
 import AllyClasses.Ally;
 import AllyClasses.Cleric;
 import AllyClasses.Fighter;
@@ -25,6 +27,7 @@ public class TestSetup {
     protected ArrayList<Ally> allies;
     protected Room room1;
     protected ArrayList<Enemy> enemies;
+    protected Ability swingweapon1;
 
     @Before
     public void setUp(){
@@ -40,6 +43,7 @@ public class TestSetup {
         allies.add(fighter1);
         allies.add(wizard1);
         allies.add(cleric1);
+        swingweapon1 = new Ability(AbilityType.SWINGWEAPON);
         game1 = new Game(allies);
 
         enemies= new ArrayList<Enemy>();

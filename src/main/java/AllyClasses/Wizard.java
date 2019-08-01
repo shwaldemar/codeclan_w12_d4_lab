@@ -1,5 +1,6 @@
 package AllyClasses;
 
+import Game.ITakeDmg;
 import Items.ArmourType;
 import Items.Pet;
 import Items.Wand;
@@ -35,4 +36,9 @@ public class Wizard extends Ally{
     public void setPet(Pet pet) {
         this.pet = pet;
     }
+
+    public void attack(ITakeDmg victim){
+        victim.loseHP(calculateAttackValue());
+    }
+
 }

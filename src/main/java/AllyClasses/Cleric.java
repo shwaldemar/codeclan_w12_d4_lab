@@ -1,5 +1,6 @@
 package AllyClasses;
 
+import Game.ITakeDmg;
 import Items.ArmourType;
 import Items.Staff;
 import Items.StaffType;
@@ -25,4 +26,14 @@ public class Cleric extends Ally{
     public int calculateAttackValue(){
         return this.staff.getType().getDmgvalue();
     }
+
+    public int calculateHealingValue(){
+        return this.staff.getType().getHealvalue();
+    }
+
+    public void attack(ITakeDmg victim){
+        victim.loseHP(calculateAttackValue());
+    }
+
+
 }

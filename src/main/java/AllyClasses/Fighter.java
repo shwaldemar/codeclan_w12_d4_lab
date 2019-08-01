@@ -1,5 +1,6 @@
 package AllyClasses;
 
+import Game.ITakeDmg;
 import Items.ArmourType;
 import Items.Weapon;
 import Items.WeaponType;
@@ -23,5 +24,9 @@ public class Fighter extends Ally {
 
     public int calculateAttackValue(){
         return this.weapon.getType().getValue();
+    }
+
+    public void attack(ITakeDmg victim){
+        victim.loseHP(calculateAttackValue());
     }
 }
