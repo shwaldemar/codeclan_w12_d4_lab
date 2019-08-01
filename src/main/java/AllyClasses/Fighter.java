@@ -20,4 +20,8 @@ public class Fighter extends Ally {
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
     }
+
+    public int calculateAttackValue(){
+        return this.weapon.getType().getValue();
+    }
 }

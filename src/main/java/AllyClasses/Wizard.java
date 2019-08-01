@@ -20,4 +20,8 @@ public class Wizard extends Ally{
     public void setWand(Wand wand) {
         this.wand = wand;
     }
+
+    public int calculateAttackValue(){
+        return this.wand.getType().getValue();
+    }
 }

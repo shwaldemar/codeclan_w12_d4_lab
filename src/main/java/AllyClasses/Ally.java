@@ -1,9 +1,10 @@
 package AllyClasses;
 
+import Game.IDealDmg;
 import Game.ITakeDmg;
 import Items.ArmourType;
 
-public abstract class Ally implements ITakeDmg {
+public abstract class Ally implements ITakeDmg, IDealDmg {
 
     private ArmourType armour;
     private int HP;
@@ -52,4 +53,5 @@ public abstract class Ally implements ITakeDmg {
     public String getName() {
         return name;
     }
+
 }

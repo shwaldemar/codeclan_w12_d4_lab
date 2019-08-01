@@ -41,4 +41,9 @@ public class ClericTest extends TestSetup{
         cleric1.setStaff(staff1);
         assertEquals(staff1,cleric1.getStaff());
     }
+
+    @Test
+    public void canCalculateAttackValue(){
+        assertEquals(3,cleric1.getStaff().getType().getDmgvalue());
+    }
 }

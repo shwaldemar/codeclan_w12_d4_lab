@@ -2,6 +2,7 @@ import Items.ArmourType;
 import org.junit.Test;
 
 import static junit.framework.TestCase.*;
+import static org.junit.Assert.assertEquals;
 
 public class FighterTest extends TestSetup{
 
@@ -36,5 +37,10 @@ public class FighterTest extends TestSetup{
         assertEquals(150,fighter1.getHP());
     }
 
+
+    @Test
+    public void canCalculateAttackValue(){
+        assertEquals(3,fighter1.getWeapon().getType().getValue());
+    }
 
 }

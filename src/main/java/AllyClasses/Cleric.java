@@ -21,4 +21,8 @@ public class Cleric extends Ally{
     public void setStaff(Staff staff) {
         this.staff = staff;
     }
+
+    public int calculateAttackValue(){
+        return this.staff.getType().getDmgvalue();
+    }
 }

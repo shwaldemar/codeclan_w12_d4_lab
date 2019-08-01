@@ -42,4 +42,10 @@ public class WizardTest extends TestSetup{
         wizard1.setWand(goodwand);
         assertEquals(goodwand,wizard1.getWand());
     }
+
+    @Test
+    public void canCalculateAttackValue(){
+        assertEquals(2,wizard1.getWand().getType().getValue());
+    }
+
 }
