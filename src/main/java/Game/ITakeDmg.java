@@ -2,9 +2,9 @@ package Game;
 
 public interface ITakeDmg {
     int getHP();
-    int setHP();
-    void loseHP();
-    void gainHP();
+    void setHP(int value);
+    void loseHP(int dmg);
+    void gainHP(int value);
     void die();
     boolean isAlive();
 }

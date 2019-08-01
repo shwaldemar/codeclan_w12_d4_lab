@@ -30,4 +30,23 @@ public abstract class Ally implements ITakeDmg {
     public void setHP(int HP) {
         this.HP = HP;
     }
+
+    public void loseHP(int dmg){
+        this.HP-=dmg;
+    }
+
+    public void gainHP(int value){
+        this.HP+=value;
+    }
+
+    public void die(){
+        System.out.println(name + " has fallen in battle.");
+    }
+
+    public boolean isAlive(){
+        if (getHP()>0)
+            return true;
+        return false;
+    }
+
 }
