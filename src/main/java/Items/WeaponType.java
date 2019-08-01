@@ -1,3 +1,5 @@
+package Items;
+
 public enum WeaponType {
     SHORTSWORD(3),
     MEDIUMSWORD(5),

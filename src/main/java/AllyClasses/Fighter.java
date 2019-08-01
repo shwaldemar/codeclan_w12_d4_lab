@@ -1,4 +1,10 @@
-public class Fighter extends Ally{
+package AllyClasses;
+
+import Items.ArmourType;
+import Items.Weapon;
+import Items.WeaponType;
+
+public class Fighter extends Ally {
 
     private Weapon weapon;
 

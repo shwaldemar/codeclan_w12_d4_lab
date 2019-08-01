@@ -1,3 +1,5 @@
+package Items;
+
 public enum ArmourType {
     CHAIN(6),
     PLATE(10),

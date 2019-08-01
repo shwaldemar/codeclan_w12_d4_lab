@@ -1,3 +1,5 @@
+package Items;
+
 public enum StaffType {
     BADSTAFF(3,7),
     AVERAGESTAFF(4,12),

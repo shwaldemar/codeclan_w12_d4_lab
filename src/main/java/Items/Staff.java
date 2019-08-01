@@ -1,3 +1,5 @@
+package Items;
+
 public class Staff {
     private StaffType type;
 

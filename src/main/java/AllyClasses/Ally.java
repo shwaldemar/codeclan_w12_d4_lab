@@ -1,3 +1,7 @@
+package AllyClasses;
+
+import Items.ArmourType;
+
 public abstract class Ally {
 
     private ArmourType armour;
