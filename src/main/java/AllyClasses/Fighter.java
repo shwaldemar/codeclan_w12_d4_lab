@@ -8,8 +8,8 @@ public class Fighter extends Ally {
 
     private Weapon weapon;
 
-    public Fighter(){
-        super(ArmourType.CLOTH,100);
+    public Fighter(String name){
+        super(ArmourType.CLOTH,100,name);
         weapon = new Weapon(WeaponType.SHORTSWORD);
     }
 

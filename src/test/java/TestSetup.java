@@ -13,7 +13,7 @@ public class TestSetup {
 
     @Before
     public void setUp(){
-        fighter1 = new Fighter();
+        fighter1 = new Fighter("harry");
         medsword = new Weapon(WeaponType.MEDIUMSWORD);
         skeleton1 = new Enemy(EnemyType.SKELETON);
     }

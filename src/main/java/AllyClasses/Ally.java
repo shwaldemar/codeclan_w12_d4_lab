@@ -1,15 +1,18 @@
 package AllyClasses;
 
+import Game.ITakeDmg;
 import Items.ArmourType;
 
-public abstract class Ally {
+public abstract class Ally implements ITakeDmg {
 
     private ArmourType armour;
     private int HP;
+    private String name;
 
-    public Ally(ArmourType armour, int HP) {
+    public Ally(ArmourType armour, int HP, String name) {
         this.armour = armour;
         this.HP=HP;
+        this.name=name;
     }
 
     public ArmourType getArmour() {

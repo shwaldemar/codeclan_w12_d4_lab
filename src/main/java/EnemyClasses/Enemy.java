@@ -1,6 +1,8 @@
 package EnemyClasses;
 
-public class Enemy {
+import Game.ITakeDmg;
+
+public class Enemy implements ITakeDmg {
     private EnemyType type;
     private int HP;
     private int dmg;
