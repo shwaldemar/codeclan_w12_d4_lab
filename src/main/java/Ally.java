@@ -16,4 +16,11 @@ public abstract class Ally {
         this.armour = armour;
     }
 
+    public int getHP() {
+        return HP;
+    }
+
+    public void setHP(int HP) {
+        this.HP = HP;
+    }
 }

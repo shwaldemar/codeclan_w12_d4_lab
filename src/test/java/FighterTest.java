@@ -17,5 +17,10 @@ public class FighterTest extends TestSetup{
         assertEquals(ArmourType.PLATE,fighter1.getArmour());
     }
 
+    @Test
+    public void canGetAndSetHP(){
+        fighter1.setHP(5);
+        assertEquals(5,fighter1.getHP());
+    }
 
 }
