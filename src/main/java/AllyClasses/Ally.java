@@ -27,12 +27,12 @@ public abstract class Ally implements ITakeDmg {
         return HP;
     }
 
-    public void setHP(int HP) {
-        this.HP = HP;
+    public void setHP(int value) {
+        this.HP=value;
     }
 
     public void loseHP(int dmg){
-        this.HP-=dmg;
+        setHP(getHP()-dmg);
     }
 
     public void gainHP(int value){
